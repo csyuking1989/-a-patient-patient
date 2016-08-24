@@ -27,3 +27,71 @@ getchar();
 getchar();
 }
 ```
+#### 3. Key words: / 与 % 区别 
+```c
+# incluse <stdio.h>
+void main() {
+int a = 10;
+int b = 3;
+printf("%d",a/b); // /表示除下来整数部分  %表示余数 
+getchar();
+} 
+'''
+#### 4. Key words: if... else... 语句
+```c
+void main() {
+int score;
+printf("please enter the score:");
+scanf("%d",&score);
+if (score % 2 != 1) {
+    printf("偶数");
+}else{
+    print ("奇数");
+}
+getchar();
+getchar();
+} 
+'''
+#### 5. 继续练习if函数 
+```c
+void main() {
+int a,b,sum;
+printf("please enter two numbers:");
+scanf("%d %d", &a,&b);
+sum = a+b;
+if (sum>100) {
+    printf("\n 两数的和大于100\n");
+}
+getchar();
+getchar();
+}
+``` 
+#### 6. Keywords: && 表示且
+```c
+void main () {
+int a,b;
+printf("分别输入上机和笔试的成绩：");
+scanf("%d %d", &a,&b);
+if(a>=60 && b>=60){
+   printf("pass");
+} else {
+   printf("no pass"); 
+} 
+getchar();
+getchar();
+} 
+```
+#### 7. Keywords: || 表示或
+```c
+float a,b,c;
+printf("分别输入a b c 三种商品的价格：");
+scanf("%f %f %f",&a, &b, &c);
+if (a>50 || b>50 || c>50 || a+b+c>100) {
+   printf("%f",(a+b+c)*0.85);
+} else {
+  printf("%f", a+b+c);
+} 
+getchar();
+getchar();
+}
+```
