@@ -27,16 +27,16 @@ getchar();
 getchar();
 }
 ```
-#### 3. Key words: / 与 % 区别 
+#### 3. Key words: / 与 % 区别  
 ```c
-# incluse <stdio.h>
 void main() {
 int a = 10;
 int b = 3;
 printf("%d",a/b); // /表示除下来整数部分  %表示余数 
 getchar();
 } 
-'''
+```
+
 #### 4. Key words: if... else... 语句
 ```c
 void main() {
@@ -51,7 +51,7 @@ if (score % 2 != 1) {
 getchar();
 getchar();
 } 
-'''
+```
 #### 5. 继续练习if函数 
 ```c
 void main() {
